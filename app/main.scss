@@ -1,0 +1,17 @@
+$bgColor: red !default;
+
+*, body{
+  margin:0;
+  padding: 0;
+}
+
+html {
+  background-color: $bgColor;
+}
+
+#app{
+  width:20px;
+  height: 20px;
+  background: url("./public/images/xingbang.png");
+  background-size:cover
+}
